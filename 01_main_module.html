@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tik tak toe</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="01_main_css.css">
+<body>
+    <div class="main">
+        <h1>Tik Tak Toe</h1>
+        <table>
+            <tr>
+                <td class="table-box" id="t1" onclick="runer(); myfun()"></td>
+                <td class="table-box" id="t2" onclick="runer1(); myfun()"></td>
+                <td class="table-box" id="t3" onclick="runer2(); myfun()"></td>
+            </tr>
+            <tr>
+                <td class="table-box" id="t4" onclick="runer3(); myfun()"></td>
+                <td class="table-box" id="t5" onclick="runer4(); myfun()"></td>
+                <td class="table-box" id="t6" onclick="runer5(); myfun()"></td>
+            </tr>
+            <tr>
+                <td class="table-box" id="t7" onclick="runer6(); myfun()"></td>
+                <td class="table-box" id="t8" onclick="runer7(); myfun()"></td>
+                <td class="table-box" id="t9" onclick="runer8(); myfun()"></td>
+            </tr>
+        </table>
+        <button id="btn1">RESET</button>
+        <span id="print"></span>
+    </div>
+</body>
+<script src="01_script.js"></script>
+</html>
